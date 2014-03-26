@@ -1,0 +1,32 @@
+{
+    "name": "rogeriopradoj/ghio.js",
+    "description": "Convert urls of github.io pages into urls of repositories and vice versa",
+    "type": "component",
+    "keywords": [
+        "js",
+        "ghio",
+        "github pages",
+        "gh-pages",
+        "github.io",
+        "conversion"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Rogerio Prado de Jesus",
+        "email": "rogeriopradoj@gmail.com"
+    }],
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+            "name": "ghio",
+            "scripts": [
+                "ghio.js"
+            ],
+            "files": [
+                "ghio.js"
+            ]
+        }
+    }
+}

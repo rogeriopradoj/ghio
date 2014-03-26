@@ -1,0 +1,27 @@
+{
+  "name": "ghio",
+  "main": "ghio.js",
+  "version": "0.1.0-rc",
+  "homepage": "https://github.com/rogeriopradoj/ghio",
+  "authors": [
+    "Rogerio Prado de Jesus <rogeriopradoj@gmail.com>"
+  ],
+  "description": "Convert urls of github.io pages into urls of repositories and vice versa",
+  "keywords": [
+    "ghio",
+    "github pages",
+    "gh-pages",
+    "github.io",
+    "conversion"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "composer.json",
+    "ghio-test.js",
+    "gulpfile.js",
+    "package.json",
+    "test.html"
+  ]
+}
