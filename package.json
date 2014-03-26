@@ -1,6 +1,6 @@
 {
   "name": "ghio",
-  "version": "0.1.0-rc",
+  "version": "0.1.0",
   "description": "Convert urls of github.io pages into urls of repositories and vice versa",
   "license": "MIT",
   "repository": "rogeriopradoj/ghio",

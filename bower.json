@@ -1,7 +1,7 @@
 {
   "name": "ghio",
   "main": "ghio.js",
-  "version": "0.1.0-rc",
+  "version": "0.1.0",
   "homepage": "https://github.com/rogeriopradoj/ghio",
   "authors": [
     "Rogerio Prado de Jesus <rogeriopradoj@gmail.com>"
