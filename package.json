@@ -1,10 +1,11 @@
 {
   "name": "ghio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Convert urls of github.io pages into urls of repositories and vice versa",
   "license": "MIT",
   "repository": "rogeriopradoj/ghio",
-  "bugs": { "url" : "http://github.com/rogeriopradoj/ghio/issues"
+  "bugs": {
+    "url": "http://github.com/rogeriopradoj/ghio/issues"
   },
   "author": {
     "name": "Rogerio Prado de Jesus",
@@ -24,8 +25,12 @@
     "conversion"
   ],
   "devDependencies": {
+    "gulp-bump": "~0.1.6",
     "gulp-qunit": "~0.2.1",
     "gulp-util": "~2.2.14",
-    "gulp": "~3.5.1"
+    "gulp": "~3.5.1",
+    "gulp-jshint": "~1.5.1",
+    "jshint-stylish": "~0.1.5",
+    "gulp-size": "~0.1.3"
   }
 }

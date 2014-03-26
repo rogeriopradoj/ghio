@@ -38,6 +38,10 @@ Just open `test.html` in your browser to see the magic taking place.
 Changelog
 ---------
 
+### 0.2.0 - 2014-03-26
+
+* Include more Gulp tasks
+
 ### 0.1.0 - 2014-03-26
 
 * First public version
