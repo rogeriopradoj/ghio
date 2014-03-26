@@ -1,6 +1,8 @@
 ghio
 ====
 
+[![Build Status](https://travis-ci.org/rogeriopradoj/ghio.svg)](https://travis-ci.org/rogeriopradoj/ghio)
+
 Convert urls of github.io pages into urls of repositories and vice versa
 
 Usage
