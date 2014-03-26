@@ -1,1 +1,86 @@
-My GitHub Page
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ghio - http://rogeriopradoj.github.io/ghio/ - Convert urls of github.io pages into urls of repositories and vice versa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="bower_components/flat-ui-official/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="bower_components/flat-ui-official/css/flat-ui.css" rel="stylesheet">
+
+    <style>
+        header {
+            text-align: center;
+        }
+        .url {
+            display: block;
+            font-size: small;
+        }
+    </style>
+
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwAAAD8AAAA/AAAAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwAAAP8AAAD/AAAA/wAAAP8AAAA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGUAAABlAAAAZQAAAGUAAABlAAAAZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASsQA/1LbAH5S2wB+UtsAflLbAH5KxAD/AAAAAAAAAAAAAAAAAAAAAAAAAABCgB3/UtsATAAAAAAAAAAAAAAAAErEAP9S2wB+UtsAflLbAH5S2wB+SsQA/wAAAAAAAAAAAAAAAFLbAExCgB3/UtsATEKAHf8AAAAAAAAAAErEAP9S2wB+AAAA/wAAAP8AAAD/AAAA/1LbAH5KxAD/AAAAAAAAAABCgB3/UtsATAAAAAAAAAAAAAAAAErEAP9S2wB+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/UtsAfkrEAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABKxAD/UtsAfgAAAP8AAAD/UtsAflLbAH4AAAD/AAAA/1LbAH5KxAD/AAAAAAAAAAAAAAAAUtsA/0KAHf8AAAAASsQA/1LbAH4AAAD/AAAA/1LbAH4AAAD/AAAA/wAAAP9S2wB+SsQA/wAAAABCgB3/UtsA/wAAAAAAAAAAAAAAAErEAP9S2wB+AAAA/wAAAP9S2wB+UtsAflLbAH5S2wB+UtsAfkrEAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABKxAD/UtsAfgAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/1LbAH5KxAD/AAAAAAAAAAAAAAAAUtsATEKAHf8AAAAASsQA/0rEAP9S2wB+AAAA/wAAAP8AAAD/AAAA/1LbAH5KxAD/SsQA/wAAAABCgB3/UtsATEKAHf9S2wBMAAAAAAAAAABKxAD/SsQA/1LbAH5S2wB+UtsAflLbAH5KxAD/SsQA/wAAAAAAAAAAUtsATEKAHf8AAAAAAAAAAAAAAAAAAAAAAAAAAErEAP9KxAD/SsQA/0rEAP9KxAD/SsQA/wAAAAAAAAAAAAAAAAAAAAAAAAAA/n8AAP//AAD8PwAA//8AAPgfAAD73wAAe94AALQtAADoFwAA6ZcAACkUAADp9wAA6BcAAKQlAABzzgAA+B8AAA==" rel="icon" type="image/x-icon" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="bower_components/flat-ui-official/js/html5shiv.js"></script>
+      <script src="bower_components/flat-ui-official/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+        <header>
+            <div class="container">     
+                <h1>Ghio
+                    <small class="url"><a href="http://rogeriopradoj.github.io/ghio/">http://rogeriopradoj.github.io/ghio/</a></small>
+                </h1>
+
+                <small class="lead">Convert urls of github.io pages into urls of repositories and vice versa</small>
+            </div>
+
+            <a class="hidden-xs" href="https://github.com/rogeriopradoj/ghio"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+        </header>
+
+        <hr>
+
+        <div class="container text-center">
+            <div class=".col-xs-6">
+                <input
+                    id="url-input" class="form-control input-lg"
+                    type="url" placeholder="Type url to be converted    (not yet ;-) )"
+                    disabled>
+                <br>
+                <button class="btn btn-disabled">Convert</button>
+            </div>
+             
+        </div>
+        
+        <hr>
+
+        <footer>
+            GitHub repository on <a href="https://github.com/rogeriopradoj/ghio">https://github.com/rogeriopradoj/ghio</a> , by <a href="https://github.com/rogeriopradoj/">@rogeriopradoj</a>.
+        </footer>
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Load JS here for greater good =============================-->
+    <script src="bower_components/flat-ui-official/js/jquery-1.8.3.min.js"></script>
+    <script src="bower_components/flat-ui-official/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="bower_components/flat-ui-official/js/jquery.ui.touch-punch.min.js"></script>
+    <script src="bower_components/flat-ui-official/js/bootstrap.min.js"></script>
+    <script src="bower_components/flat-ui-official/js/bootstrap-select.js"></script>
+    <script src="bower_components/flat-ui-official/js/bootstrap-switch.js"></script>
+    <script src="bower_components/flat-ui-official/js/flatui-checkbox.js"></script>
+    <script src="bower_components/flat-ui-official/js/flatui-radio.js"></script>
+    <script src="bower_components/flat-ui-official/js/jquery.tagsinput.js"></script>
+    <script src="bower_components/flat-ui-official/js/jquery.placeholder.js"></script>
+
+    <script src="bower_components/ghio/ghio.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

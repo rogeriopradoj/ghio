@@ -1,0 +1,7 @@
+{
+  "name": "rogeriopradoj.github.io/ghio",
+  "dependencies": {
+    "ghio": "~0.2.0",
+    "flat-ui-official": "~2.1.3"
+  }
+}
